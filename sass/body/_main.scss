@@ -12,13 +12,13 @@ main {
   line-height: 1.2;
   }
 }
+
 .subject_wraper {
   width: 33%;
   float: left;
   & .subject_icon {
     float: left;
     height: 100%;
-
   }
   .subject_icon:before {
     font-family: 'icomoon';
