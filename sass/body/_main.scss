@@ -2,18 +2,41 @@ main {
   background-color: #fff;
 }
 .tinyone_title {
-  padding: rem(20px);
+  padding: rem(108px 85px 84px);
   text-align: center;
-  & h1 {
-  font-family: 'PTSans-Bold';
-  font-size: 2rem;
-  color: #010101;
-  margin: 6.8rem 0 0.6rem;
+  & p {
+  font-size: rem(20px);
+  color: #313841;
+  letter-spacing: rem(-0.11px);
+  word-spacing: rem(0.5px);
+  line-height: 1.2;
+  }
+}
+.subject_wraper {
+  width: 33%;
+  float: left;
+  & .subject_icon {
+    float: left;
+    height: 100%;
+
+  }
+  .subject_icon:before {
+    font-family: 'icomoon';
+    content: "\e959";
+    font-size: rem(42px);
+    margin: 0 rem(11px) 0 rem(11px);
+  }
+}
+.subject_description {
+  float: left;
+  width: 75%;
+  padding-left: rem(16px);
+  & a {
+    font-family: 'PTSans-Bold';
+    font-size: rem(22px);
   }
   & p {
-  font-family: 'PTSans-Regular';
-  font-size: 1.2rem;
-  color: #313841;
-  letter-spacing: 0.02rem;
+    color: #898989;
+    margin-top: rem(9px);
   }
 }
