@@ -13,30 +13,35 @@ main {
   }
 }
 
-.subject_wraper {
-  width: 33%;
-  float: left;
-  & .subject_icon {
-    float: left;
-    height: 100%;
-  }
-  .subject_icon:before {
-    font-family: 'icomoon';
-    content: "\e959";
-    font-size: rem(42px);
-    margin: 0 rem(11px) 0 rem(11px);
-  }
+.all_subjects_wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 0 rem(8px) rem(83px);
 }
-.subject_description {
+.subject_wraper {
+  width: 31%;
+  margin-bottom: rem(81px);
   float: left;
-  width: 75%;
-  padding-left: rem(16px);
-  & a {
-    font-family: 'PTSans-Bold';
-    font-size: rem(22px);
+  display: flex;
+  max-height: 117px;
+  overflow: hidden;
+  & .subject_icon:before {
+    font-family: 'icomoon';
+    font-size: rem(50px);
+    margin-right: rem(7px);
   }
-  & p {
-    color: #898989;
-    margin-top: rem(9px);
+
+  & .subject_description {
+    padding-left: rem(16px);
+    & a {
+      font-family: 'PTSans-Bold';
+      font-size: rem(22px);
+    }
+    & p {
+      color: #898989;
+      margin-top: rem(9px);
+    }
   }
 }
