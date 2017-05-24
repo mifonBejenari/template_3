@@ -306,7 +306,7 @@ main {
 
 /* line 4, ../sass/body/_main.scss */
 .tinyone_title {
-  padding: 6.75rem 5.3125rem 5.25rem;
+  margin: 6.75rem 5.3125rem 5.25rem;
   text-align: center;
 }
 /* line 7, ../sass/body/_main.scss */
@@ -324,7 +324,7 @@ main {
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
-  padding: 0 0.5rem 5.1875rem;
+  margin: 0 0.5rem 5.1875rem;
 }
 
 /* line 23, ../sass/body/_main.scss */

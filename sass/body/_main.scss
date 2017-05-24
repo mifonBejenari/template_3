@@ -2,7 +2,7 @@ main {
   background-color: #fff;
 }
 .tinyone_title {
-  padding: rem(108px 85px 84px);
+  margin: rem(108px 85px 84px);
   text-align: center;
   & p {
   font-size: rem(20px);
@@ -18,7 +18,7 @@ main {
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
-  padding: 0 rem(8px) rem(83px);
+  margin: 0 rem(8px) rem(83px);
 }
 .subject_wraper {
   width: 31%;
