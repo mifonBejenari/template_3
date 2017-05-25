@@ -4,6 +4,10 @@ main {
 .tinyone_title {
   margin: rem(108px 85px 84px);
   text-align: center;
+  & h1 {
+    color: #010101;
+    margin-bottom: rem(11px);
+  }
   & p {
   font-size: rem(20px);
   color: #313841;
