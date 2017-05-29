@@ -1,0 +1,26 @@
+header {
+  background-color: #fcdb00;
+  overflow: hidden;
+  .header_bar {
+    padding: rem(60px 2px 57px 8px);
+    .logo {
+      float: left;
+    }
+    .header_menu {
+      float: right;
+      margin-top: rem(11px);
+      li {
+        display: inline-block;
+        margin-left: rem(63px);
+      }
+      a {
+        font-family: 'HelveticaNeue-Bold';
+        font-size: rem(22px);
+      }
+    }
+  }
+}
+
+.flex-next {
+  right: 0;
+}
