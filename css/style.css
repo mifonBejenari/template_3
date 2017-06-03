@@ -9258,7 +9258,7 @@ footer {
   border-radius: 0.1875rem;
 }
 /* line 64, ../sass/body/_footer.scss */
-.socials li {
+.socials li, .socials a {
   display: inline-block;
 }
 
