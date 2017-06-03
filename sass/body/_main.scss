@@ -2,13 +2,13 @@ main {
   background-color: #fff;
 }
 .tinyone_title {
-  margin: rem(108px 85px 84px);
+  padding: rem(114px 85px 83px);
   text-align: center;
-  & h1 {
+  h1 {
     color: #010101;
-    margin-bottom: rem(11px);
+    margin-bottom: rem(13px);
   }
-  & p {
+  p {
   font-size: rem(20px);
   color: #313841;
   letter-spacing: rem(-0.11px);
@@ -18,33 +18,31 @@ main {
 }
 
 .all_subjects_wraper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0 rem(8px) rem(83px);
+  padding: 0 0 rem(82px);
 }
 .subject_wraper {
-  width: 31%;
   margin-bottom: rem(81px);
+  padding-left: rem(17px);
   float: left;
-  display: flex;
-  max-height: 117px;
   overflow: hidden;
-  & .subject_icon:before {
+  .subject_icon {
+    float: left;    
+  }
+  .subject_icon:before {
     font-family: 'icomoon';
     font-size: rem(50px);
-    margin-right: rem(7px);
   }
 
-  & .subject_description {
-    padding-left: rem(16px);
-    & a {
+  .subject_description {
+    padding-left: rem(74px);
+    a {
       font-family: 'PTSans-Bold';
       font-size: rem(22px);
     }
-    & p {
+    p {
       color: #898989;
-      margin-top: rem(9px);
+      margin-top: rem(7px);
+      line-height: 1.25;
     }
   }
 }
