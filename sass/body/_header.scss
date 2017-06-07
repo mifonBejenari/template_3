@@ -2,7 +2,7 @@ header {
   background-color: #fcdb00;
   overflow: hidden;
   .header_bar {
-    padding: rem(60px 12px 56px 19px);
+    padding: rem(60px 12px) 0 rem(19px);
     .logo {
       float: left;
     }
@@ -19,6 +19,17 @@ header {
         font-family: 'HelveticaNeue-Bold';
         font-size: rem(22px);
       }
+    }
+    .head_phone {
+      float: right;
+      img {
+        height: auto;
+        min-height: 100%;
+        max-height: 100%;
+        width: auto;
+        min-width: 100%;
+        max-width: 100%;
+      } 
     }
   }
 }
@@ -41,6 +52,9 @@ header {
         display: inline-block;
         margin-right: rem(28px);
       }
+      li:last-of-type {
+        margin-right: 0;
+      }
       a:before {
         font-family: 'icomoon';
         font-size: rem(39px);
@@ -61,9 +75,10 @@ header {
     img {
       height: auto;
       min-height: 100%;
-      width: auto;
       max-height: 100%;
-      max-width: none;
+      width: auto;
+      min-width: 100%;
+      max-width: 100%;
     } 
   }
 }
@@ -72,6 +87,7 @@ header {
 @media (min-width: 768px) {
     header {
     .header_bar {
+      padding-bottom: rem(56px);
       .header_menu {
         margin-top: rem(9px);
         float: right;
@@ -80,6 +96,9 @@ header {
         margin-left: rem(63px);
         margin-right: 0;
         }
+      }
+      .head_phone {
+        display: none;
       }
     }
   }
@@ -90,6 +109,7 @@ header {
     }
     .right_pt_slide { 
       display: block;
+      padding-top: 50px;
     }
   }
 }
