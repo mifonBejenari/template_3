@@ -9358,7 +9358,7 @@ html[xmlns] .flexslider .slides {
 /* line 152, ../sass/body/_flexslider.scss */
 .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
-  left: 10px;
+  left: -450px;
 }
 
 /* line 156, ../sass/body/_flexslider.scss */
@@ -9369,7 +9369,7 @@ html[xmlns] .flexslider .slides {
 /* line 159, ../sass/body/_flexslider.scss */
 .flexslider:hover .flex-direction-nav .flex-next {
   opacity: 0.7;
-  right: 10px;
+  right: -450px;
 }
 
 /* line 163, ../sass/body/_flexslider.scss */
@@ -9708,10 +9708,6 @@ header .header_bar .head_phone img {
 .slide_wraper .left_pt_slide ul li {
   display: inline-block;
   margin-right: 1.75rem;
-}
-/* line 55, ../sass/body/_header.scss */
-.slide_wraper .left_pt_slide ul li:last-of-type {
-  margin-right: 0;
 }
 /* line 58, ../sass/body/_header.scss */
 .slide_wraper .left_pt_slide ul a:before {
