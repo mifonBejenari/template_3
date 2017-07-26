@@ -9358,7 +9358,7 @@ html[xmlns] .flexslider .slides {
 /* line 152, ../sass/body/_flexslider.scss */
 .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
-  left: -450px;
+  left: -50px;
 }
 
 /* line 156, ../sass/body/_flexslider.scss */
@@ -9369,7 +9369,7 @@ html[xmlns] .flexslider .slides {
 /* line 159, ../sass/body/_flexslider.scss */
 .flexslider:hover .flex-direction-nav .flex-next {
   opacity: 0.7;
-  right: -450px;
+  right: -50px;
 }
 
 /* line 163, ../sass/body/_flexslider.scss */
